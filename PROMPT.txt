@@ -1,0 +1,7 @@
+Cole isto no Claude Code, dentro desta pasta:
+
+---
+Leia o CLAUDE.md desta pasta e publique este site no GitHub Pages:
+crie o repositório público, faça o push para main, habilite o Pages na raiz da branch main
+e me devolva a URL final. Não modifique o index.html.
+---
