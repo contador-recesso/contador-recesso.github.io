@@ -1,7 +1,7 @@
 # Contador de Recesso — ANDRITZ Brasil
 
 ## O que é este repositório
-Uma página estática única: `index.html`. Contador regressivo até **23/12/2026 17:25 (horário de Brasília, UTC-3)**,
+Uma página estática única: `index.html`. Contador regressivo até **18/12/2026 17:25 (horário de Brasília, UTC-3)**,
 com tema dia/noite alternando a cada 15 s, fogos de artifício, luzes de Natal e cenário de praia.
 
 `index.html` é um **arquivo compilado e autocontido** (~555 KB, todo o CSS/JS embutido, sem dependências externas
@@ -19,8 +19,9 @@ Para mudanças de conteúdo, use apenas edições pontuais por busca-e-substitui
 O arquivo `.nojekyll` já está incluído — mantenha-o.
 
 ## Edições comuns (busca-e-substituição literal em index.html)
-- **Data/hora alvo**: trocar todas as ocorrências de `2026-12-23T17:25:00-03:00` pela nova data ISO com fuso `-03:00`.
-- **Texto da data no subtítulo**: `17h25 de 23 de dezembro`.
+- **Data/hora alvo**: trocar todas as ocorrências de `2026-12-18T17:25:00-03:00` pela nova data ISO com fuso `-03:00`.
+- **Texto da data no subtítulo**: `17h25 de 18 de dezembro`.
+- **Anúncio de entrada**: overlay com selo "OFICIAL" (estado `anuncio`/`selo`, método `fecharAnuncio`); fecha sozinho em 4,3 s ou no clique.
 - **Título**: `Recesso de<br />fim de ano 2026` (aparece como `Recesso de<br/>fim de ano 2026` após compilação — busque por `fim de ano`).
 - **Horas por dia** do contador de jornada: valor padrão `8.5`.
 - **Intervalo do ciclo dia/noite**: `15` segundos (`cicloTema`).
